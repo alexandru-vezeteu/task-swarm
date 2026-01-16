@@ -1,0 +1,73 @@
+@startmindmap "C++ P2P Compute Learning Roadmap"
+
+title C++ P2P Compute Project
+
+* P2P Compute
+
+** 1. C++ Foundations
+*** Memory Management
+**** RAII
+**** Smart Pointers
+*** Move Semantics
+**** std::move
+**** Rvalue References
+*** Object Lifetimes
+**** Ownership
+**** Scope Rules
+
+** 2. Templates
+*** Function Templates
+*** Class Templates
+*** std::forward
+**** Universal References
+**** Perfect Forwarding
+*** Variadic Templates
+**** Parameter Packs
+**** Fold Expressions
+
+** 3. Concurrency
+*** std::thread
+*** Mutexes & Locks
+*** std::async / std::future
+*** Thread Pools
+*** std::atomic
+**** Lock-free Patterns
+
+left side
+
+** 4. Networking
+*** Sockets (TCP/UDP)
+*** Non-blocking I/O
+*** Async I/O Patterns
+*** Serialization
+**** Binary Protocols
+**** Message Framing
+
+** 5. P2P Architecture
+*** Node Discovery
+**** Peer Registration
+**** Heartbeat
+*** Distributed State
+*** Message Routing
+**** Request/Response
+**** Gossip Protocols
+
+** 6. Compute Distribution
+*** Task Abstraction
+**** std::function
+**** Type Erasure
+*** Work Queues
+*** Load Balancing
+*** Result Aggregation
+
+** 7. Advanced Topics
+*** Type Traits
+*** SFINAE / Concepts
+*** Error Handling
+*** Security Basics
+**** TLS
+**** Authentication
+
+footer Build small prototypes at each phase - Embrace the challenges - Have fun!
+
+@endmindmap
